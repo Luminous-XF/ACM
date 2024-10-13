@@ -27,3 +27,13 @@ add_executable(CF1997B "Codeforces/Educational Codeforces Round 168 (Rated for D
 add_executable(ABC374A "AtCoder/AtCoder Beginner Contest 374/ABC374A.cpp")
 add_executable(ABC374B "AtCoder/AtCoder Beginner Contest 374/ABC374B.cpp")
 add_executable(ABC374C "AtCoder/AtCoder Beginner Contest 374/ABC374C.cpp")
+
+add_executable(CF1676A "Codeforces/Codeforces Round 790 (Div. 4)/CF1676A.cpp")
+add_executable(CF1676B "Codeforces/Codeforces Round 790 (Div. 4)/CF1676B.cpp")
+add_executable(CF1676C "Codeforces/Codeforces Round 790 (Div. 4)/CF1676C.cpp")
+add_executable(CF1676D "Codeforces/Codeforces Round 790 (Div. 4)/CF1676D.cpp")
+add_executable(CF1676E "Codeforces/Codeforces Round 790 (Div. 4)/CF1676E.cpp")
+add_executable(CF1676F "Codeforces/Codeforces Round 790 (Div. 4)/CF1676F.cpp")
+add_executable(CF1676G "Codeforces/Codeforces Round 790 (Div. 4)/CF1676G.cpp")
+add_executable(CF1676H1 "Codeforces/Codeforces Round 790 (Div. 4)/CF1676H1.cpp")
+add_executable(CF1676H2 "Codeforces/Codeforces Round 790 (Div. 4)/CF1676H2.cpp")

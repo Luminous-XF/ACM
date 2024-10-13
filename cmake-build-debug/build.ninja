@@ -54,8 +54,6 @@ build CMakeFiles/ACM.dir/main.cpp.obj: CXX_COMPILER__ACM_unscanned_Debug E$:/Cod
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ACM.dir
   OBJECT_FILE_DIR = CMakeFiles\ACM.dir
-  TARGET_COMPILE_PDB = CMakeFiles\ACM.dir\
-  TARGET_PDB = ACM.pdb
 
 
 # =============================================================================
@@ -71,10 +69,900 @@ build ACM.exe: CXX_EXECUTABLE_LINKER__ACM_Debug CMakeFiles/ACM.dir/main.cpp.obj
   OBJECT_DIR = CMakeFiles\ACM.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\ACM.dir\
   TARGET_FILE = ACM.exe
   TARGET_IMPLIB = libACM.dll.a
-  TARGET_PDB = ACM.pdb
+  TARGET_PDB = ACM.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352A
+
+
+#############################################
+# Order-only phony target for CF1352A
+
+build cmake_object_order_depends_target_CF1352A: phony || .
+
+build CMakeFiles/CF1352A.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352A.cpp.obj: CXX_COMPILER__CF1352A_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352A.cpp || cmake_object_order_depends_target_CF1352A
+  DEP_FILE = CMakeFiles\CF1352A.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352A.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352A.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352A.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352A
+
+
+#############################################
+# Link the executable CF1352A.exe
+
+build CF1352A.exe: CXX_EXECUTABLE_LINKER__CF1352A_Debug CMakeFiles/CF1352A.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352A.exe
+  TARGET_IMPLIB = libCF1352A.dll.a
+  TARGET_PDB = CF1352A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352B
+
+
+#############################################
+# Order-only phony target for CF1352B
+
+build cmake_object_order_depends_target_CF1352B: phony || .
+
+build CMakeFiles/CF1352B.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352B.cpp.obj: CXX_COMPILER__CF1352B_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352B.cpp || cmake_object_order_depends_target_CF1352B
+  DEP_FILE = CMakeFiles\CF1352B.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352B.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352B.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352B.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352B
+
+
+#############################################
+# Link the executable CF1352B.exe
+
+build CF1352B.exe: CXX_EXECUTABLE_LINKER__CF1352B_Debug CMakeFiles/CF1352B.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352B.exe
+  TARGET_IMPLIB = libCF1352B.dll.a
+  TARGET_PDB = CF1352B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352C
+
+
+#############################################
+# Order-only phony target for CF1352C
+
+build cmake_object_order_depends_target_CF1352C: phony || .
+
+build CMakeFiles/CF1352C.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352C.cpp.obj: CXX_COMPILER__CF1352C_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352C.cpp || cmake_object_order_depends_target_CF1352C
+  DEP_FILE = CMakeFiles\CF1352C.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352C.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352C.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352C.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352C
+
+
+#############################################
+# Link the executable CF1352C.exe
+
+build CF1352C.exe: CXX_EXECUTABLE_LINKER__CF1352C_Debug CMakeFiles/CF1352C.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352C.exe
+  TARGET_IMPLIB = libCF1352C.dll.a
+  TARGET_PDB = CF1352C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352D
+
+
+#############################################
+# Order-only phony target for CF1352D
+
+build cmake_object_order_depends_target_CF1352D: phony || .
+
+build CMakeFiles/CF1352D.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352D.cpp.obj: CXX_COMPILER__CF1352D_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352D.cpp || cmake_object_order_depends_target_CF1352D
+  DEP_FILE = CMakeFiles\CF1352D.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352D.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352D.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352D.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352D
+
+
+#############################################
+# Link the executable CF1352D.exe
+
+build CF1352D.exe: CXX_EXECUTABLE_LINKER__CF1352D_Debug CMakeFiles/CF1352D.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352D.exe
+  TARGET_IMPLIB = libCF1352D.dll.a
+  TARGET_PDB = CF1352D.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352E
+
+
+#############################################
+# Order-only phony target for CF1352E
+
+build cmake_object_order_depends_target_CF1352E: phony || .
+
+build CMakeFiles/CF1352E.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352E.cpp.obj: CXX_COMPILER__CF1352E_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352E.cpp || cmake_object_order_depends_target_CF1352E
+  DEP_FILE = CMakeFiles\CF1352E.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352E.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352E.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352E.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352E
+
+
+#############################################
+# Link the executable CF1352E.exe
+
+build CF1352E.exe: CXX_EXECUTABLE_LINKER__CF1352E_Debug CMakeFiles/CF1352E.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352E.exe
+  TARGET_IMPLIB = libCF1352E.dll.a
+  TARGET_PDB = CF1352E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352F
+
+
+#############################################
+# Order-only phony target for CF1352F
+
+build cmake_object_order_depends_target_CF1352F: phony || .
+
+build CMakeFiles/CF1352F.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352F.cpp.obj: CXX_COMPILER__CF1352F_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352F.cpp || cmake_object_order_depends_target_CF1352F
+  DEP_FILE = CMakeFiles\CF1352F.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352F.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352F.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352F.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352F
+
+
+#############################################
+# Link the executable CF1352F.exe
+
+build CF1352F.exe: CXX_EXECUTABLE_LINKER__CF1352F_Debug CMakeFiles/CF1352F.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352F.exe
+  TARGET_IMPLIB = libCF1352F.dll.a
+  TARGET_PDB = CF1352F.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1352G
+
+
+#############################################
+# Order-only phony target for CF1352G
+
+build cmake_object_order_depends_target_CF1352G: phony || .
+
+build CMakeFiles/CF1352G.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352G.cpp.obj: CXX_COMPILER__CF1352G_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 640$ (Div.$ 4)/CF1352G.cpp || cmake_object_order_depends_target_CF1352G
+  DEP_FILE = CMakeFiles\CF1352G.dir\Codeforces\Codeforces_Round_640_(Div._4)\CF1352G.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1352G.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1352G.dir\Codeforces\Codeforces_Round_640_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1352G
+
+
+#############################################
+# Link the executable CF1352G.exe
+
+build CF1352G.exe: CXX_EXECUTABLE_LINKER__CF1352G_Debug CMakeFiles/CF1352G.dir/Codeforces/Codeforces_Round_640_(Div._4)/CF1352G.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1352G.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1352G.exe
+  TARGET_IMPLIB = libCF1352G.dll.a
+  TARGET_PDB = CF1352G.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669A
+
+
+#############################################
+# Order-only phony target for CF1669A
+
+build cmake_object_order_depends_target_CF1669A: phony || .
+
+build CMakeFiles/CF1669A.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669A.cpp.obj: CXX_COMPILER__CF1669A_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669A.cpp || cmake_object_order_depends_target_CF1669A
+  DEP_FILE = CMakeFiles\CF1669A.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669A.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669A.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669A.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669A
+
+
+#############################################
+# Link the executable CF1669A.exe
+
+build CF1669A.exe: CXX_EXECUTABLE_LINKER__CF1669A_Debug CMakeFiles/CF1669A.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669A.exe
+  TARGET_IMPLIB = libCF1669A.dll.a
+  TARGET_PDB = CF1669A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669B
+
+
+#############################################
+# Order-only phony target for CF1669B
+
+build cmake_object_order_depends_target_CF1669B: phony || .
+
+build CMakeFiles/CF1669B.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669B.cpp.obj: CXX_COMPILER__CF1669B_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669B.cpp || cmake_object_order_depends_target_CF1669B
+  DEP_FILE = CMakeFiles\CF1669B.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669B.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669B.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669B.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669B
+
+
+#############################################
+# Link the executable CF1669B.exe
+
+build CF1669B.exe: CXX_EXECUTABLE_LINKER__CF1669B_Debug CMakeFiles/CF1669B.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669B.exe
+  TARGET_IMPLIB = libCF1669B.dll.a
+  TARGET_PDB = CF1669B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669C
+
+
+#############################################
+# Order-only phony target for CF1669C
+
+build cmake_object_order_depends_target_CF1669C: phony || .
+
+build CMakeFiles/CF1669C.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669C.cpp.obj: CXX_COMPILER__CF1669C_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669C.cpp || cmake_object_order_depends_target_CF1669C
+  DEP_FILE = CMakeFiles\CF1669C.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669C.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669C.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669C.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669C
+
+
+#############################################
+# Link the executable CF1669C.exe
+
+build CF1669C.exe: CXX_EXECUTABLE_LINKER__CF1669C_Debug CMakeFiles/CF1669C.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669C.exe
+  TARGET_IMPLIB = libCF1669C.dll.a
+  TARGET_PDB = CF1669C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669D
+
+
+#############################################
+# Order-only phony target for CF1669D
+
+build cmake_object_order_depends_target_CF1669D: phony || .
+
+build CMakeFiles/CF1669D.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669D.cpp.obj: CXX_COMPILER__CF1669D_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669D.cpp || cmake_object_order_depends_target_CF1669D
+  DEP_FILE = CMakeFiles\CF1669D.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669D.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669D.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669D.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669D
+
+
+#############################################
+# Link the executable CF1669D.exe
+
+build CF1669D.exe: CXX_EXECUTABLE_LINKER__CF1669D_Debug CMakeFiles/CF1669D.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669D.exe
+  TARGET_IMPLIB = libCF1669D.dll.a
+  TARGET_PDB = CF1669D.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669E
+
+
+#############################################
+# Order-only phony target for CF1669E
+
+build cmake_object_order_depends_target_CF1669E: phony || .
+
+build CMakeFiles/CF1669E.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669E.cpp.obj: CXX_COMPILER__CF1669E_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669E.cpp || cmake_object_order_depends_target_CF1669E
+  DEP_FILE = CMakeFiles\CF1669E.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669E.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669E.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669E.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669E
+
+
+#############################################
+# Link the executable CF1669E.exe
+
+build CF1669E.exe: CXX_EXECUTABLE_LINKER__CF1669E_Debug CMakeFiles/CF1669E.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669E.exe
+  TARGET_IMPLIB = libCF1669E.dll.a
+  TARGET_PDB = CF1669E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669F
+
+
+#############################################
+# Order-only phony target for CF1669F
+
+build cmake_object_order_depends_target_CF1669F: phony || .
+
+build CMakeFiles/CF1669F.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669F.cpp.obj: CXX_COMPILER__CF1669F_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669F.cpp || cmake_object_order_depends_target_CF1669F
+  DEP_FILE = CMakeFiles\CF1669F.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669F.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669F.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669F.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669F
+
+
+#############################################
+# Link the executable CF1669F.exe
+
+build CF1669F.exe: CXX_EXECUTABLE_LINKER__CF1669F_Debug CMakeFiles/CF1669F.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669F.exe
+  TARGET_IMPLIB = libCF1669F.dll.a
+  TARGET_PDB = CF1669F.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1669G
+
+
+#############################################
+# Order-only phony target for CF1669G
+
+build cmake_object_order_depends_target_CF1669G: phony || .
+
+build CMakeFiles/CF1669G.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669G.cpp.obj: CXX_COMPILER__CF1669G_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 784$ (Div.$ 4)/CF1669G.cpp || cmake_object_order_depends_target_CF1669G
+  DEP_FILE = CMakeFiles\CF1669G.dir\Codeforces\Codeforces_Round_784_(Div._4)\CF1669G.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1669G.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1669G.dir\Codeforces\Codeforces_Round_784_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1669G
+
+
+#############################################
+# Link the executable CF1669G.exe
+
+build CF1669G.exe: CXX_EXECUTABLE_LINKER__CF1669G_Debug CMakeFiles/CF1669G.dir/Codeforces/Codeforces_Round_784_(Div._4)/CF1669G.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1669G.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1669G.exe
+  TARGET_IMPLIB = libCF1669G.dll.a
+  TARGET_PDB = CF1669G.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1997A
+
+
+#############################################
+# Order-only phony target for CF1997A
+
+build cmake_object_order_depends_target_CF1997A: phony || .
+
+build CMakeFiles/CF1997A.dir/Codeforces/Educational_Codeforces_Round_168_(Rated_for_Div._2)/CF1997A.cpp.obj: CXX_COMPILER__CF1997A_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Educational$ Codeforces$ Round$ 168$ (Rated$ for$ Div.$ 2)/CF1997A.cpp || cmake_object_order_depends_target_CF1997A
+  DEP_FILE = CMakeFiles\CF1997A.dir\Codeforces\Educational_Codeforces_Round_168_(Rated_for_Div._2)\CF1997A.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1997A.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1997A.dir\Codeforces\Educational_Codeforces_Round_168_(Rated_for_Div._2)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1997A
+
+
+#############################################
+# Link the executable CF1997A.exe
+
+build CF1997A.exe: CXX_EXECUTABLE_LINKER__CF1997A_Debug CMakeFiles/CF1997A.dir/Codeforces/Educational_Codeforces_Round_168_(Rated_for_Div._2)/CF1997A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1997A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1997A.exe
+  TARGET_IMPLIB = libCF1997A.dll.a
+  TARGET_PDB = CF1997A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1997B
+
+
+#############################################
+# Order-only phony target for CF1997B
+
+build cmake_object_order_depends_target_CF1997B: phony || .
+
+build CMakeFiles/CF1997B.dir/Codeforces/Educational_Codeforces_Round_168_(Rated_for_Div._2)/CF1997B.cpp.obj: CXX_COMPILER__CF1997B_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Educational$ Codeforces$ Round$ 168$ (Rated$ for$ Div.$ 2)/CF1997B.cpp || cmake_object_order_depends_target_CF1997B
+  DEP_FILE = CMakeFiles\CF1997B.dir\Codeforces\Educational_Codeforces_Round_168_(Rated_for_Div._2)\CF1997B.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1997B.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1997B.dir\Codeforces\Educational_Codeforces_Round_168_(Rated_for_Div._2)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1997B
+
+
+#############################################
+# Link the executable CF1997B.exe
+
+build CF1997B.exe: CXX_EXECUTABLE_LINKER__CF1997B_Debug CMakeFiles/CF1997B.dir/Codeforces/Educational_Codeforces_Round_168_(Rated_for_Div._2)/CF1997B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1997B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1997B.exe
+  TARGET_IMPLIB = libCF1997B.dll.a
+  TARGET_PDB = CF1997B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ABC374A
+
+
+#############################################
+# Order-only phony target for ABC374A
+
+build cmake_object_order_depends_target_ABC374A: phony || .
+
+build CMakeFiles/ABC374A.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374A.cpp.obj: CXX_COMPILER__ABC374A_unscanned_Debug E$:/CodeFile/CLion/ACM/AtCoder/AtCoder$ Beginner$ Contest$ 374/ABC374A.cpp || cmake_object_order_depends_target_ABC374A
+  DEP_FILE = CMakeFiles\ABC374A.dir\AtCoder\AtCoder_Beginner_Contest_374\ABC374A.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ABC374A.dir
+  OBJECT_FILE_DIR = CMakeFiles\ABC374A.dir\AtCoder\AtCoder_Beginner_Contest_374
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ABC374A
+
+
+#############################################
+# Link the executable ABC374A.exe
+
+build ABC374A.exe: CXX_EXECUTABLE_LINKER__ABC374A_Debug CMakeFiles/ABC374A.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ABC374A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ABC374A.exe
+  TARGET_IMPLIB = libABC374A.dll.a
+  TARGET_PDB = ABC374A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ABC374B
+
+
+#############################################
+# Order-only phony target for ABC374B
+
+build cmake_object_order_depends_target_ABC374B: phony || .
+
+build CMakeFiles/ABC374B.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374B.cpp.obj: CXX_COMPILER__ABC374B_unscanned_Debug E$:/CodeFile/CLion/ACM/AtCoder/AtCoder$ Beginner$ Contest$ 374/ABC374B.cpp || cmake_object_order_depends_target_ABC374B
+  DEP_FILE = CMakeFiles\ABC374B.dir\AtCoder\AtCoder_Beginner_Contest_374\ABC374B.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ABC374B.dir
+  OBJECT_FILE_DIR = CMakeFiles\ABC374B.dir\AtCoder\AtCoder_Beginner_Contest_374
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ABC374B
+
+
+#############################################
+# Link the executable ABC374B.exe
+
+build ABC374B.exe: CXX_EXECUTABLE_LINKER__ABC374B_Debug CMakeFiles/ABC374B.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ABC374B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ABC374B.exe
+  TARGET_IMPLIB = libABC374B.dll.a
+  TARGET_PDB = ABC374B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ABC374C
+
+
+#############################################
+# Order-only phony target for ABC374C
+
+build cmake_object_order_depends_target_ABC374C: phony || .
+
+build CMakeFiles/ABC374C.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374C.cpp.obj: CXX_COMPILER__ABC374C_unscanned_Debug E$:/CodeFile/CLion/ACM/AtCoder/AtCoder$ Beginner$ Contest$ 374/ABC374C.cpp || cmake_object_order_depends_target_ABC374C
+  DEP_FILE = CMakeFiles\ABC374C.dir\AtCoder\AtCoder_Beginner_Contest_374\ABC374C.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ABC374C.dir
+  OBJECT_FILE_DIR = CMakeFiles\ABC374C.dir\AtCoder\AtCoder_Beginner_Contest_374
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ABC374C
+
+
+#############################################
+# Link the executable ABC374C.exe
+
+build ABC374C.exe: CXX_EXECUTABLE_LINKER__ABC374C_Debug CMakeFiles/ABC374C.dir/AtCoder/AtCoder_Beginner_Contest_374/ABC374C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ABC374C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ABC374C.exe
+  TARGET_IMPLIB = libABC374C.dll.a
+  TARGET_PDB = ABC374C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676A
+
+
+#############################################
+# Order-only phony target for CF1676A
+
+build cmake_object_order_depends_target_CF1676A: phony || .
+
+build CMakeFiles/CF1676A.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676A.cpp.obj: CXX_COMPILER__CF1676A_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676A.cpp || cmake_object_order_depends_target_CF1676A
+  DEP_FILE = CMakeFiles\CF1676A.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676A.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676A.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676A.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676A
+
+
+#############################################
+# Link the executable CF1676A.exe
+
+build CF1676A.exe: CXX_EXECUTABLE_LINKER__CF1676A_Debug CMakeFiles/CF1676A.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676A.exe
+  TARGET_IMPLIB = libCF1676A.dll.a
+  TARGET_PDB = CF1676A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676B
+
+
+#############################################
+# Order-only phony target for CF1676B
+
+build cmake_object_order_depends_target_CF1676B: phony || .
+
+build CMakeFiles/CF1676B.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676B.cpp.obj: CXX_COMPILER__CF1676B_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676B.cpp || cmake_object_order_depends_target_CF1676B
+  DEP_FILE = CMakeFiles\CF1676B.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676B.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676B.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676B.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676B
+
+
+#############################################
+# Link the executable CF1676B.exe
+
+build CF1676B.exe: CXX_EXECUTABLE_LINKER__CF1676B_Debug CMakeFiles/CF1676B.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676B.exe
+  TARGET_IMPLIB = libCF1676B.dll.a
+  TARGET_PDB = CF1676B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676C
+
+
+#############################################
+# Order-only phony target for CF1676C
+
+build cmake_object_order_depends_target_CF1676C: phony || .
+
+build CMakeFiles/CF1676C.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676C.cpp.obj: CXX_COMPILER__CF1676C_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676C.cpp || cmake_object_order_depends_target_CF1676C
+  DEP_FILE = CMakeFiles\CF1676C.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676C.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676C.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676C.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676C
+
+
+#############################################
+# Link the executable CF1676C.exe
+
+build CF1676C.exe: CXX_EXECUTABLE_LINKER__CF1676C_Debug CMakeFiles/CF1676C.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676C.exe
+  TARGET_IMPLIB = libCF1676C.dll.a
+  TARGET_PDB = CF1676C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676D
+
+
+#############################################
+# Order-only phony target for CF1676D
+
+build cmake_object_order_depends_target_CF1676D: phony || .
+
+build CMakeFiles/CF1676D.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676D.cpp.obj: CXX_COMPILER__CF1676D_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676D.cpp || cmake_object_order_depends_target_CF1676D
+  DEP_FILE = CMakeFiles\CF1676D.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676D.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676D.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676D.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676D
+
+
+#############################################
+# Link the executable CF1676D.exe
+
+build CF1676D.exe: CXX_EXECUTABLE_LINKER__CF1676D_Debug CMakeFiles/CF1676D.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676D.exe
+  TARGET_IMPLIB = libCF1676D.dll.a
+  TARGET_PDB = CF1676D.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676E
+
+
+#############################################
+# Order-only phony target for CF1676E
+
+build cmake_object_order_depends_target_CF1676E: phony || .
+
+build CMakeFiles/CF1676E.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676E.cpp.obj: CXX_COMPILER__CF1676E_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676E.cpp || cmake_object_order_depends_target_CF1676E
+  DEP_FILE = CMakeFiles\CF1676E.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676E.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676E.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676E.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676E
+
+
+#############################################
+# Link the executable CF1676E.exe
+
+build CF1676E.exe: CXX_EXECUTABLE_LINKER__CF1676E_Debug CMakeFiles/CF1676E.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676E.exe
+  TARGET_IMPLIB = libCF1676E.dll.a
+  TARGET_PDB = CF1676E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676F
+
+
+#############################################
+# Order-only phony target for CF1676F
+
+build cmake_object_order_depends_target_CF1676F: phony || .
+
+build CMakeFiles/CF1676F.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676F.cpp.obj: CXX_COMPILER__CF1676F_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676F.cpp || cmake_object_order_depends_target_CF1676F
+  DEP_FILE = CMakeFiles\CF1676F.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676F.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676F.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676F.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676F
+
+
+#############################################
+# Link the executable CF1676F.exe
+
+build CF1676F.exe: CXX_EXECUTABLE_LINKER__CF1676F_Debug CMakeFiles/CF1676F.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676F.exe
+  TARGET_IMPLIB = libCF1676F.dll.a
+  TARGET_PDB = CF1676F.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676G
+
+
+#############################################
+# Order-only phony target for CF1676G
+
+build cmake_object_order_depends_target_CF1676G: phony || .
+
+build CMakeFiles/CF1676G.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676G.cpp.obj: CXX_COMPILER__CF1676G_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676G.cpp || cmake_object_order_depends_target_CF1676G
+  DEP_FILE = CMakeFiles\CF1676G.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676G.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676G.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676G.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676G
+
+
+#############################################
+# Link the executable CF1676G.exe
+
+build CF1676G.exe: CXX_EXECUTABLE_LINKER__CF1676G_Debug CMakeFiles/CF1676G.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676G.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676G.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676G.exe
+  TARGET_IMPLIB = libCF1676G.dll.a
+  TARGET_PDB = CF1676G.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CF1676H2
+
+
+#############################################
+# Order-only phony target for CF1676H2
+
+build cmake_object_order_depends_target_CF1676H2: phony || .
+
+build CMakeFiles/CF1676H2.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676H2.cpp.obj: CXX_COMPILER__CF1676H2_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676H2.cpp || cmake_object_order_depends_target_CF1676H2
+  DEP_FILE = CMakeFiles\CF1676H2.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676H2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676H2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676H2.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676H2
+
+
+#############################################
+# Link the executable CF1676H2.exe
+
+build CF1676H2.exe: CXX_EXECUTABLE_LINKER__CF1676H2_Debug CMakeFiles/CF1676H2.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676H2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676H2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676H2.exe
+  TARGET_IMPLIB = libCF1676H2.dll.a
+  TARGET_PDB = CF1676H2.exe.dbg
 
 
 #############################################
@@ -102,7 +990,61 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ABC374A: phony ABC374A.exe
+
+build ABC374B: phony ABC374B.exe
+
+build ABC374C: phony ABC374C.exe
+
 build ACM: phony ACM.exe
+
+build CF1352A: phony CF1352A.exe
+
+build CF1352B: phony CF1352B.exe
+
+build CF1352C: phony CF1352C.exe
+
+build CF1352D: phony CF1352D.exe
+
+build CF1352E: phony CF1352E.exe
+
+build CF1352F: phony CF1352F.exe
+
+build CF1352G: phony CF1352G.exe
+
+build CF1669A: phony CF1669A.exe
+
+build CF1669B: phony CF1669B.exe
+
+build CF1669C: phony CF1669C.exe
+
+build CF1669D: phony CF1669D.exe
+
+build CF1669E: phony CF1669E.exe
+
+build CF1669F: phony CF1669F.exe
+
+build CF1669G: phony CF1669G.exe
+
+build CF1676A: phony CF1676A.exe
+
+build CF1676B: phony CF1676B.exe
+
+build CF1676C: phony CF1676C.exe
+
+build CF1676D: phony CF1676D.exe
+
+build CF1676E: phony CF1676E.exe
+
+build CF1676F: phony CF1676F.exe
+
+build CF1676G: phony CF1676G.exe
+
+build CF1676H2: phony CF1676H2.exe
+
+build CF1997A: phony CF1997A.exe
+
+build CF1997B: phony CF1997B.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +1054,7 @@ build ACM: phony ACM.exe
 #############################################
 # Folder: E:/CodeFile/CLion/ACM/cmake-build-debug
 
-build all: phony ACM.exe
+build all: phony ACM.exe CF1352A.exe CF1352B.exe CF1352C.exe CF1352D.exe CF1352E.exe CF1352F.exe CF1352G.exe CF1669A.exe CF1669B.exe CF1669C.exe CF1669D.exe CF1669E.exe CF1669F.exe CF1669G.exe CF1997A.exe CF1997B.exe ABC374A.exe ABC374B.exe ABC374C.exe CF1676A.exe CF1676B.exe CF1676C.exe CF1676D.exe CF1676E.exe CF1676F.exe CF1676G.exe CF1676H2.exe
 
 # =============================================================================
 # Built-in targets
@@ -121,14 +1063,14 @@ build all: phony ACM.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/CodeFile/CLion/ACM/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/CodeFile/CLion/ACM/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/CodeFile/CLion/ACM/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/Code/IDE/JetBrains/Toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/CodeFile/CLion/ACM/CMakeLists.txt: phony
 
 
 #############################################
