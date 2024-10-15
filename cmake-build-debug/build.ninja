@@ -932,6 +932,39 @@ build CF1676G.exe: CXX_EXECUTABLE_LINKER__CF1676G_Debug CMakeFiles/CF1676G.dir/C
   TARGET_PDB = CF1676G.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target CF1676H1
+
+
+#############################################
+# Order-only phony target for CF1676H1
+
+build cmake_object_order_depends_target_CF1676H1: phony || .
+
+build CMakeFiles/CF1676H1.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676H1.cpp.obj: CXX_COMPILER__CF1676H1_unscanned_Debug E$:/CodeFile/CLion/ACM/Codeforces/Codeforces$ Round$ 790$ (Div.$ 4)/CF1676H1.cpp || cmake_object_order_depends_target_CF1676H1
+  DEP_FILE = CMakeFiles\CF1676H1.dir\Codeforces\Codeforces_Round_790_(Div._4)\CF1676H1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CF1676H1.dir
+  OBJECT_FILE_DIR = CMakeFiles\CF1676H1.dir\Codeforces\Codeforces_Round_790_(Div._4)
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CF1676H1
+
+
+#############################################
+# Link the executable CF1676H1.exe
+
+build CF1676H1.exe: CXX_EXECUTABLE_LINKER__CF1676H1_Debug CMakeFiles/CF1676H1.dir/Codeforces/Codeforces_Round_790_(Div._4)/CF1676H1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CF1676H1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CF1676H1.exe
+  TARGET_IMPLIB = libCF1676H1.dll.a
+  TARGET_PDB = CF1676H1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CF1676H2
 
 
@@ -1040,6 +1073,8 @@ build CF1676F: phony CF1676F.exe
 
 build CF1676G: phony CF1676G.exe
 
+build CF1676H1: phony CF1676H1.exe
+
 build CF1676H2: phony CF1676H2.exe
 
 build CF1997A: phony CF1997A.exe
@@ -1054,7 +1089,7 @@ build CF1997B: phony CF1997B.exe
 #############################################
 # Folder: E:/CodeFile/CLion/ACM/cmake-build-debug
 
-build all: phony ACM.exe CF1352A.exe CF1352B.exe CF1352C.exe CF1352D.exe CF1352E.exe CF1352F.exe CF1352G.exe CF1669A.exe CF1669B.exe CF1669C.exe CF1669D.exe CF1669E.exe CF1669F.exe CF1669G.exe CF1997A.exe CF1997B.exe ABC374A.exe ABC374B.exe ABC374C.exe CF1676A.exe CF1676B.exe CF1676C.exe CF1676D.exe CF1676E.exe CF1676F.exe CF1676G.exe CF1676H2.exe
+build all: phony ACM.exe CF1352A.exe CF1352B.exe CF1352C.exe CF1352D.exe CF1352E.exe CF1352F.exe CF1352G.exe CF1669A.exe CF1669B.exe CF1669C.exe CF1669D.exe CF1669E.exe CF1669F.exe CF1669G.exe CF1997A.exe CF1997B.exe ABC374A.exe ABC374B.exe ABC374C.exe CF1676A.exe CF1676B.exe CF1676C.exe CF1676D.exe CF1676E.exe CF1676F.exe CF1676G.exe CF1676H1.exe CF1676H2.exe
 
 # =============================================================================
 # Built-in targets

@@ -37,3 +37,5 @@ add_executable(CF1676F "Codeforces/Codeforces Round 790 (Div. 4)/CF1676F.cpp")
 add_executable(CF1676G "Codeforces/Codeforces Round 790 (Div. 4)/CF1676G.cpp")
 add_executable(CF1676H1 "Codeforces/Codeforces Round 790 (Div. 4)/CF1676H1.cpp")
 add_executable(CF1676H2 "Codeforces/Codeforces Round 790 (Div. 4)/CF1676H2.cpp")
+
+add_executable(UVA10170 "UVA/Volume 101 (10100-10199)/UVA10170.cpp")
