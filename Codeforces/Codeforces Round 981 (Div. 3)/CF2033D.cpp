@@ -17,6 +17,20 @@ int a[MAX_N];
 long long pre[MAX_N];
 long long dp[MAX_N];
 
+struct customHash {
+    static uint64_t splitmix64(uint64_t x) {
+        x += 0x9e3779b97f4a7c15;
+        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+        return x ^ (x >> 31);
+    }
+
+    size_t operator()(uint64_t x) const {
+        static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+        return splitmix64(x + FIXED_RANDOM);
+    }
+};
+
 void solve() {
     int n;
     cin >> n;
@@ -31,7 +45,7 @@ void solve() {
     dp[0] = 0;
 
     long long ans = 0;
-    map<long long, int> book;
+    unordered_map<long long, int, customHash> book;
     book[0] = 0;
     for (int i = 1; i <= n; i++) {
         if (book.find(pre[i]) != book.end()) {

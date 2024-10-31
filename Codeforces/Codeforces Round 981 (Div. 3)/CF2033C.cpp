@@ -50,6 +50,7 @@ void solve() {
 
     cout << min(dp[n][0], dp[n][1]) << endl;
 }
+
 int main() {
 
     ios::sync_with_stdio(false);
