@@ -17,14 +17,16 @@ vector<int> add(vector<int> &a, vector<int> &b) {
     vector<int> res;
 
     int t = 0;
-    for (int i = 0; i < a.size() || i < b.size(); i++) {
-        if (i < a.size()) t += a[i];
-        if (i < b.size()) t += b[i];
+    const int aLen = (int) a.size();
+    const int bLen = (int) b.size();
+    for (int i = 0; i < aLen || i < bLen; i++) {
+        if (i < aLen) t += a[i];
+        if (i < bLen) t += b[i];
         res.push_back(t % 10);
         t /= 10;
     }
 
-    if (t > 0) res.push_back(1);
+    if (t > 0) res.push_back(t);
 
     return res;
 }
@@ -34,17 +36,17 @@ void solve() {
     cin >> s1 >> s2;
 
     vector<int> a;
-    for (int i = s1.size() - 1; i >= 0; i--) {
+    for (int i = (int) s1.size() - 1; i >= 0; i--) {
         a.push_back(s1[i] - '0');
     }
 
     vector<int> b;
-    for (int i = s2.size() - 1; i >= 0; i--) {
+    for (int i = (int) s2.size() - 1; i >= 0; i--) {
         b.push_back(s2[i] - '0');
     }
 
     auto ans = add(a, b);
-    for (int i = ans.size() - 1; i >= 0; i--) {
+    for (int i = (int) ans.size() - 1; i >= 0; i--) {
         cout << ans[i];
     }
     cout << endl;
